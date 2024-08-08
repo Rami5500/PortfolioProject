@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabuki Oti Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Bootstrap to make the navbar reponsive -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Kabuki Oti</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <!-- Could add a contact page later with form
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> 
+                    -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Spans the full width, centers the content and adds padding -->
+    <section id="welcome" class="container-fluid text-center py-5">
+        <h2>Welcome to Kabuki's Portfolio</h2>
+        <p>Hello! My name is Kabuki Oti. Welcome to my portfolio where you can learn more about my skills, experience, and interests.</p>
+    </section>
+    
+    <br>
+
+    <section id="about" class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-left">
+                <h2>About Me</h2>
+                <div class="about-content text-center">
+                    <p><strong>Name:</strong> Kabuki Oti</p>
+                    <p><strong>Age:</strong> 22</p>
+                    <p><strong>Date of Birth:</strong> 21st August 2001</p>
+                    <p><strong>Ethnic Background:</strong> Ghanaian and Cameroonian</p>
+                    <p><strong>Height:</strong> 5'6"</p>
+                    <p><strong>Place of Birth:</strong> Netherlands</p>
+                    <p><strong>Last Holiday:</strong> Ghana for 2 months</p>
+                    <p><strong>Favorite Movie:</strong> The Great Gatsby</p>
+                    <p><strong>Favorite Color:</strong> Yellow/Mustard</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="imgs/Kabuki.jpg" alt="Kabuki Oti" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section id="contact" class="container-fluid">
+        <h2>Contact</h2>
+        <p><a href="mailto:kabuki.oti@ten10.com">kabuki.oti@ten10.com</a></p>
+    </section>
+
+    <footer id="footer" class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Kabuki Oti. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript and Bootstrap Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
